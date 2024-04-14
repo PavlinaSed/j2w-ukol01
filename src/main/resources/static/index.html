@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Launch of Java developer career.</title>
@@ -9,6 +8,12 @@
     <link href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
           rel="stylesheet">
+    <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+            integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+            crossorigin="anonymous"
+    />
     <!-- <link href="css/normalize.css" rel="stylesheet"> -->
     <link href="css/style.css" rel="stylesheet">
     <link href="images/falcon9_launch.jpg" rel="external" type="image/jpg"> <!-- musí tady být rel? -->
@@ -21,72 +26,93 @@
 <body>
 <main id="main">
     <header>
-        <h1>How to easily launch your web develompment career?</h1>
+        <h1>How to easily launch your web development career?</h1>
         <nav>
             <ul class="menu">
-                <li><a href="#about-me">About me</a></li>
-                <li><a href="#when">When</a></li>
-                <li><a href="#how">How</a></li>
-                <li><a href="#why">Why</a></li>
+                <li><a href="#aboutMe-section">About Me</a></li>
+                <li><a href="#when-section">When</a></li>
+                <li><a href="#how-section">How</a></li>
+                <li><a href="#why-section">Why</a></li>
+                <li><a href="#contact-section">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <img class="background" src="images/webb_1.jpg" alt="stellar background">
+
+    <img class="background-image" src="images/falcon9_launch.jpg" alt="rocket launch">
     <section class="aboutMe-section" id="aboutMe-section">
+        <h2>About Me</h2>
         <div class="content">
-            <h2>About Me</h2>
-            <p>As a proper beginner, although enthusiastic I still have nothing to write about in the about me section.
-                So far, my focus has been on understanding some basic parts of Java code, and Javascript enhancement of
+            <p>As a proper beginner, although enthusiastic I still have not much to write about in this <em>´about
+                me´</em> section.
+                So far, my focus has been on understanding some basic parts of Java code, and Javascript enhancement
+                of
                 html tags. (active participation in the course of Javascript 1, Java1, Java2)...</p>
-            <p>Even though my future career is in the stars, I´d like to focus on Java web application development using
+            <p>Even though my future career is in the stars, I´d like to focus on Java web application development
+                using
                 springboot, react and who knows what else ... ! </p>
         </div>
     </section>
+
     <section class="when-section" id="when-section">
+        <h2>WHEN to start</h2>
         <div class="content">
-            <h2>WHEN to start</h2>
-
-            <img class="image" src="images/falcon9_launch.jpg" alt="rocket launch">
-
-            <p>If you are wondering <strong>when</strong> is the best time to start a new career as a Java developer,
+            <p>If you are wondering <strong>when</strong> is the best time to start a new career as a Java
+                developer,
                 it´s just now! There
-                are no more reasons to delay your decision. So let´s start and take a look at some good
+                are no more reasons to delay your decision. So let´s start and take a look at some of my good
                 recommendations. </p>
         </div>
     </section>
 
-
+    <h2>HOW to start</h2>
     <section class="how-section" id="how-section">
         <div class="content">
-            <h2>HOW to start</h2>
-
-            <p>No doubt you're wondering <strong>how</strong> to get started. What can you do? The first and the smost
+            <p>No doubt you're wondering <strong>how</strong> to get started. What can you do? The first and the
+                most
                 important thing is to take the first step and sign
-                up for czehcitas, where an experienced team of developers will take care of everything you´ll need. </p>
+                up for czechitas, where an experienced team of IT guys will take care of everything else you´ll need.
+            </p>
         </div>
     </section>
 
-
+    <h2>WHY to start</h2>
     <section class="why-section" id="why-section">
         <div class="content">
-            <h2>Why to start</h2>
-
-            <img class="image" src="images/rocket_flight.jpg" alt="rocket heading for orbit">
-
-            <p>The question should rather be <strong>why not ?</strong></p>
-
-            <p>Check out my reference and portfolio <a href="http://www.github.com/PavlinaSed"></a>or contact me
-                directly via <a href="p1sedlackova@gmail.com">e-mail</a>.</p>
-
-            <div class="clearfloat"></div>
+            <p>The question should rather be <strong>why not ?</strong> This flight gonna be a fun! </p>
+            <p>Check out my portfolio below.</p>
         </div>
     </section>
+    <h2> Contact </h2>
+    <div class="content">
+        <p>Let´s work together! Do not hesitate to contact me via: </p>
+    </div>
+    <section class="contact-section" id="contact-section">
 
-
-    <footer>
+        <div class="contact-links">
+            <a
+                    href="https://github.com/PavlinaSed"
+                    target="_blank"
+            >
+                <i class="fa-brands fa-github"></i>GitHub</a
+            >
+            <a
+                    id="profile-link"
+                    href="https://www.freecodecamp.org/PavlinaSed"
+                    target="_blank"
+                    class="btn contact-details"
+            ><i class="fab fa-free-code-camp"></i> FreeCodeCamp</a
+            >
+            <a href="mailto:p1sedlackova@gmail.com" class="btn contact-details"
+            ><i class="fa fa-envelope"></i> e-mail</a
+            >
+        </div>
+    </section>
+    <footer class="footer">
+        <img class="image" src="images/webb_1.jpg" alt="stellar background">
+        <img class="image" src="images/rocket_flight.jpg" alt="rocket heading for orbit">
+        <img class="image" src="images/webb_2.jpg" alt="stellar background">
         <p>&copy; 2024. Good luck on your journey to adventure! </p>
-        <img class="background" src="images/webb_2.jpg" alt="stellar background">
     </footer>
 </main>
 </body>
