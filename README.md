@@ -1,3 +1,42 @@
+# Lesson 1, task 1
+
+The goal is to prepare your personal web medallion.
+You will save the files that make up the web page (`index.html`, styles, images, ...) in the `/src/main/resources/static/` directory so that when your application starts
+medallion is displayed on the home page.
+
+1. Use this repository as a template (_Use this template_ → _Create a new repository_) to create a repository in your GitHub account.
+1. After creating the repository, enable Issues on the repository in your GitHub account. In the top menu under the repository name, tab **Settings** → stay on the **General** page → section **Features** → check **Issues**. Other options can be left off.
+1. Clone the repository **from your GitHub account** to your local machine.
+1. Create a `src/main/resources` directory in your project and `/src/main/resources/static` in that directory - right-click on the `/src/main` directory in IntelliJ Idea,
+   select `New→Directory` and enter the directory name.
+1. In the `/src/main/resources/static/` directory (or its subdirectories), create/copy the files needed for the site.
+1. The main file that will be displayed in the browser must be directly in the `static` directory and must be named `index.html`. Other files can be in subdirectories.
+1. Check your browser at http://localhost:8080 to make sure the medallion looks the way you want it to.
+1. *Commit* your edit to your local git repository.
+1. *Push* your edit to a remote repository on your GitHub account.
+1. Check on GitHub that your last commit is there and that all the necessary files are in the `/src/main/resources/static/` directory.
+1. Post a link to your repository (in the form `https://github.com/<tvuj-login>/j2w-ukol01`) in the commit box at [My Czechitas](https://moje.czechitas.cz/).
+
+If you later find a bug in your code or want to improve something, edit your files locally and repeat the `commit` and `push` pair.
+
+## Might be useful
+To give you something to experiment with, you'll need a website of your own. It could be an existing website or a static website from anywhere. If you
+you don't feel like building your own site, you can borrow an existing site, such as http://krystufek.rolecek.cz/.
+
+There are plenty of tutorials for web writing on the internet. You can try the online course by Luděk Roleček
+[Online course Introduction to HTML/CSS](https://www.czechitas.cz/cs/blog/zaciname-s-it/online-kurz-uvod-do-html-css-1-lekce).
+
+You can also try the [Codecademy](https://www.codecademy.com/) course on the basics of HTML and CSS [Make a Website](https://www.codecademy.com/learn/make-a-website).
+You need to create an account on Codecademy (which I recommend, they have a lot of cool courses on the very basics). The last of the four lessons - Bootstrap - you can safely
+completely skip it.
+
+### Links
+
+* link to [Lesson 1](https://java.czechitas.cz/2024-jaro/java-2-online/lekce-1.html)
+* link to the assignment page [Lesson 1 - Assignment 1](https://java.czechitas.cz/2024-jaro/java-2-online/ukol-1.html)
+
+
+
 # Lekce 1, úkol 1
 
 Cílem je připravit si svůj osobní webový medailonek (například na úrovni jednodenního workshopu [Tvořím web HTML/CSS](https://www.czechitas.cz/cs/co-delame/tvorim-web)).

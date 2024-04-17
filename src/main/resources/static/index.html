@@ -14,7 +14,6 @@
             integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
             crossorigin="anonymous"
     />
-    <!-- <link href="css/normalize.css" rel="stylesheet"> -->
     <link href="css/style.css" rel="stylesheet">
     <link href="images/falcon9_launch.jpg" rel="external" type="image/jpg"> <!-- musí tady být rel? -->
     <link href="images/rocket_flight.jpg" rel="external" type="image/jpg">
@@ -36,11 +35,11 @@
                 <li><a href="#contact-section">Contact</a></li>
             </ul>
         </nav>
+        <img class="welcome-image" src="images/falcon9_launch.jpg" alt="rocket launch">
     </header>
 
 
-    <img class="background-image" src="images/falcon9_launch.jpg" alt="rocket launch">
-    <section class="aboutMe-section" id="aboutMe-section">
+       <section class="section" id="aboutMe-section">
         <h2>About Me</h2>
         <div class="content">
             <p>As a proper beginner, although enthusiastic I still have not much to write about in this <em>´about
@@ -54,7 +53,7 @@
         </div>
     </section>
 
-    <section class="when-section" id="when-section">
+    <section class="section" id="when-section">
         <h2>WHEN to start</h2>
         <div class="content">
             <p>If you are wondering <strong>when</strong> is the best time to start a new career as a Java
@@ -65,8 +64,9 @@
         </div>
     </section>
 
-    <h2>HOW to start</h2>
-    <section class="how-section" id="how-section">
+
+    <section class="section" id="how-section">
+        <h2>HOW to start</h2>
         <div class="content">
             <p>No doubt you're wondering <strong>how</strong> to get started. What can you do? The first and the
                 most
@@ -76,34 +76,32 @@
         </div>
     </section>
 
-    <h2>WHY to start</h2>
-    <section class="why-section" id="why-section">
+
+    <section class="section" id="why-section">
+        <h2>WHY to start</h2>
         <div class="content">
             <p>The question should rather be <strong>why not ?</strong> This flight gonna be a fun! </p>
             <p>Check out my portfolio below.</p>
         </div>
     </section>
-    <h2> Contact </h2>
-    <div class="content">
-        <p>Let´s work together! Do not hesitate to contact me via: </p>
-    </div>
-    <section class="contact-section" id="contact-section">
 
+
+    <section class="section" id="contact-section">
+        <h2> Contact Me</h2>
+        <div class="content">
+            <p>Let´s work together! Do not hesitate to contact me via: </p>
+        </div>
         <div class="contact-links">
-            <a
-                    href="https://github.com/PavlinaSed"
+            <a  href="https://github.com/PavlinaSed"
                     target="_blank"
-            >
-                <i class="fa-brands fa-github"></i>GitHub</a
-            >
-            <a
-                    id="profile-link"
-                    href="https://www.freecodecamp.org/PavlinaSed"
+                class="btn-contact-details">
+                <i class="fa-brands fa-github"></i>GitHub</a>
+            <a      href="https://www.freecodecamp.org/PavlinaSed"
                     target="_blank"
-                    class="btn contact-details"
+                    class="btn-contact-details"
             ><i class="fab fa-free-code-camp"></i> FreeCodeCamp</a
             >
-            <a href="mailto:p1sedlackova@gmail.com" class="btn contact-details"
+            <a href="mailto:p1sedlackova@gmail.com" class="btn-contact-details"
             ><i class="fa fa-envelope"></i> e-mail</a
             >
         </div>
