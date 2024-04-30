@@ -1,10 +1,10 @@
 *, *::before, *::after {
     box-sizing: inherit;
 }
+
 main{
     font-family: "JetBrains Mono ExtraLight", sans-serif ;
     background-image: url("https://images.unsplash.com/photo-1565436381579-52471481f017?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-
    }
 
 body{
@@ -18,17 +18,19 @@ body{
     min-height: 100vh;
     color: black;
     opacity: 80%;
-
 }
+
 header{
     background-color: #3b3b4f;
     padding-bottom:30px;
 }
+
 h1 {
     text-align: center;
     padding-top:50px;
     color: #FFFFF0;
 }
+
 h2{
     text-align: center;
     color: #FFFFF0;
@@ -81,32 +83,40 @@ li > a {
     padding: 0.2rem;
     list-style-type: none;
 }
+
 .image{
     max-height: 300px;
     width: auto;
     border-radius: 5px;
 }
+
 .welcome-image{
     display: block;
     width: 40%;
     margin: auto;
     border-radius: 5px;
 }
+
 #contact-section{
     text-align: center;
     justify-content: space-between;
     color: black;
     padding-bottom: 20px;
-
 }
+
 .btn-contact-details{
     color: #FFFFF0;
     text-decoration: none;
-    padding-top: 10px;
 }
+
+.contact-links{
+    margin-top: 10px;
+}
+
 i{
     color: #FFFFF0;
 }
+
 .content {
     display: grid;
     width: 50%;
@@ -118,6 +128,7 @@ i{
     padding-right: 15px;
     border-radius: 5px;
 }
+
 .footer{
     text-align: center;
     color: #FFFFF0;
@@ -125,6 +136,7 @@ i{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 @media (prefers-reduced-motion: no-preference) {
     * {
         scroll-behavior: smooth;
